@@ -1,53 +1,73 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>菜單 | 狸逗鯊</title>
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5e5;
+      color: #333;
+    }
+    header {
+      background-color: #4a6c47;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    .menu {
+      padding: 2em;
+    }
+    .menu h2 {
+      text-align: center;
+      color: #4a6c47;
+    }
+    .menu-item {
+      margin: 1em 0;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 0.5em 0;
+    }
+    footer {
+      background-color: #4a6c47;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>狸逗鯊 Tanuki and Shark</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">首頁</a></li>
-        <li><a href="menu.html">菜單</a></li>
-        <li><a href="about.html">關於我們</a></li>
-        <li><a href="contact.html">聯絡我們</a></li>
-      </ul>
-    </nav>
+    <h1>狸逗鯊菜單</h1>
+    <p>新鮮現做，真材實料</p>
   </header>
-  
-  <main>
-    <h2>菜單</h2>
-    <section class="menu-category">
-      <h3>經典飲品</h3>
-      <div class="menu-item">
-        <img src="images/green-bean-milk.jpg" alt="綠豆沙牛奶">
-        <p>綠豆沙牛奶 - NT$65</p>
-      </div>
-      <div class="menu-item">
-        <img src="images/red-bean-milk.jpg" alt="紅豆沙牛奶">
-        <p>紅豆沙牛奶 - NT$65</p>
-      </div>
-    </section>
-
-    <section class="menu-category">
-      <h3>季節限定</h3>
-      <div class="menu-item">
-        <img src="images/guava-smoothie.jpg" alt="芭樂冰沙">
-        <p>芭樂冰沙 - NT$70</p>
-      </div>
-      <div class="menu-item">
-        <img src="images/taro-milk.jpg" alt="芋頭牛奶">
-        <p>芋頭牛奶 - NT$75</p>
-      </div>
-    </section>
-  </main>
-
+  <div class="menu">
+    <h2>冰沙 / Smoothies</h2>
+    <div class="menu-item">
+      <span>綠豆冰沙</span>
+      <span>$40</span>
+    </div>
+    <div class="menu-item">
+      <span>紅豆冰沙</span>
+      <span>$60</span>
+    </div>
+    <h2>牛奶 / Milk</h2>
+    <div class="menu-item">
+      <span>紅茶鮮奶</span>
+      <span>$50</span>
+    </div>
+  </div>
   <footer>
-    <p>© 2024 狸逗鯊 Tanuki and Shark 綠豆冰沙專門店</p>
+    &copy; 2024 狸逗鯊綠豆冰沙專門店. All Rights Reserved.
   </footer>
 </body>
 </html>
