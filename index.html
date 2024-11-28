@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>狸逗鯊 | 綠豆冰沙專門店</title>
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>狸逗鯊 | 綠豆冰沙專門店</title>
+    <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8f5e5; /* 米色背景 */
-      color: #333; /* 文字顏色 */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f5e5;
+        /* 米色背景 */
+        color: #333;
+        /* 文字顏色 */
     }
+
     header {
-      background-color: #4a6c47; /* 綠色主色調 */
-      color: white;
-      padding: 1em 0;
-      text-align: center;
+        background-color: #4a6c47;
+        /* 綠色主色調 */
+        color: white;
+        padding: 1em 0;
+        text-align: center;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2em;
+        margin: 0;
+        font-size: 2em;
     }
+
     .hero {
-      background-image: url('path-to-hero-image.jpg'); /* 替換為主圖像檔案 */
-      background-size: cover;
-      background-position: center;
-      height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        background-image: url('path-to-hero-image.jpg');
+        /* 替換為主圖像檔案 */
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
+
     .hero h2 {
-      font-size: 2.5em;
-      text-align: center;
+        font-size: 2.5em;
+        text-align: center;
     }
+
     .content {
-      padding: 2em;
-      text-align: center;
+        padding: 2em;
+        text-align: center;
     }
+
     .btn {
-      display: inline-block;
-      background-color: #e94e77; /* 紅色點綴 */
-      color: white;
-      padding: 0.8em 1.5em;
-      margin-top: 1em;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 1.2em;
+        display: inline-block;
+        background-color: #e94e77;
+        /* 紅色點綴 */
+        color: white;
+        padding: 0.8em 1.5em;
+        margin-top: 1em;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2em;
     }
+
     footer {
-      background-color: #4a6c47;
-      color: white;
-      padding: 1em 0;
-      text-align: center;
-      font-size: 0.9em;
+        background-color: #4a6c47;
+        color: white;
+        padding: 1em 0;
+        text-align: center;
+        font-size: 0.9em;
     }
-  </style>
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>狸逗鯊 Tanuki and Shark</h1>
-    <p>綠豆冰沙專門店 | 暢飲每一口清新</p>
-  </header>
-  <div class="hero">
-    <h2>冬季限定飲品強勢回歸！</h2>
-  </div>
-  <div class="content">
-    <h3>每日限量，芋頭牛奶＆西米露，甜蜜暖心</h3>
-    <p>還有紅豆沙＋芋泥、綠豆沙＋芋泥全新搭配！</p>
-    <a href="#menu" class="btn">查看菜單</a>
-  </div>
-  <footer>
-    &copy; 2024 狸逗鯊綠豆冰沙專門店. All Rights Reserved.
-  </footer>
+    <header>
+        <h1>狸逗鯊 Tanuki and Shark</h1>
+        <p>綠豆冰沙專門店 | 暢飲每一口清新</p>
+    </header>
+    <div class="hero">
+        <h2>冬季限定飲品強勢回歸！</h2>
+    </div>
+    <div class="content">
+        <h3>每日限量，芋頭牛奶＆西米露，甜蜜暖心</h3>
+        <p>還有紅豆沙＋芋泥、綠豆沙＋芋泥全新搭配！</p>
+        <a href="#menu" class="btn">查看菜單</a>
+    </div>
+    
+    <!-- 這是菜單部分，為其添加 id="menu" -->
+    <div id="menu" class="menu">
+        <h2>冰沙 / Smoothies</h2>
+        <div class="menu-item">
+            <span>綠豆冰沙</span>
+            <span>$40</span>
+        </div>
+        <div class="menu-item">
+            <span>紅豆冰沙</span>
+            <span>$60</span>
+        </div>
+        <h2>牛奶 / Milk</h2>
+        <div class="menu-item">
+            <span>紅茶鮮奶</span>
+            <span>$50</span>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 狸逗鯊綠豆冰沙專門店. All Rights Reserved.
+    </footer>
 </body>
+
 </html>
